@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>UltraThemeHub - Free Responsive Website Templates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">UltraThemeHub</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#templates">Templates</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="javascript:void(0)" onclick="openDocsModal()">Docs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <span class="hero-badge">100% Free & Open Source</span>
+        <h1>Responsive Web Templates Built for Modern Web Developers</h1>
+        <p>Explore our curated collection of 12 fully functional, watermark-free HTML/CSS website templates ready for instant download.</p>
+    </section>
+
+    <!-- Templates Section -->
+    <main class="container" id="templates">
+        <div class="grid">
+            
+            <!-- Template 1: Corporate Business -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-1">
+                            <div class="tmpl-nav">
+                                <strong>Apex Business</strong>
+                                <div class="tmpl-nav-links">
+                                    <span>Home</span>
+                                    <span>Pricing</span>
+                                    <span>Services</span>
+                                    <span>Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero">
+                                <h2>Grow Your Enterprise Strategy</h2>
+                                <p>Delivering high-end corporate growth solutions worldwide.</p>
+                                <span class="tmpl-btn">Get Started</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box"><h4>Consulting</h4><p>Expert advisory service.</p></div>
+                                <div class="tmpl-box"><h4>Analytics</h4><p>Data insights for performance.</p></div>
+                                <div class="tmpl-box"><h4>Security</h4><p>Enterprise data protection.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Corporate Minimal</h2>
+                    <p class="card-desc">Clean design for corporate sites, consulting, and business landing pages.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-1')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Corporate Minimal', 'Apex Business', '#4f46e5', 29, 79, 199, 'Strategic Consulting')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 2: SaaS Software Platform -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-2">
+                            <div class="tmpl-nav tmpl-2-nav">
+                                <strong>SaaSify Engine</strong>
+                                <div class="tmpl-nav-links">
+                                    <span class="tmpl-2-nav-link">Home</span>
+                                    <span class="tmpl-2-nav-link">Pricing</span>
+                                    <span class="tmpl-2-nav-link">Features</span>
+                                    <span class="tmpl-2-nav-link">Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-2-hero">
+                                <h2>Automate Your Workflow</h2>
+                                <p>Deploy seamless developer platforms in minutes.</p>
+                                <span class="tmpl-btn tmpl-2-btn">Start Free Trial</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box tmpl-2-box"><h4>CI/CD Pipeline</h4><p>Automated cloud deployment.</p></div>
+                                <div class="tmpl-box tmpl-2-box"><h4>API Gateway</h4><p>Fast, secure integration.</p></div>
+                                <div class="tmpl-box tmpl-2-box"><h4>Real-time Logs</h4><p>System health monitoring.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">SaaS Launch Pad</h2>
+                    <p class="card-desc">High-converting layout optimized for software products and app showcases.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-2')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('SaaS Launch Pad', 'SaaSify Engine', '#10b981', 19, 49, 129, 'Developer Automation')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 3: Creative Agency & Portfolio -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-3">
+                            <div class="tmpl-nav">
+                                <strong>Studio Folio</strong>
+                                <div class="tmpl-nav-links">
+                                    <span>Home</span>
+                                    <span>Pricing</span>
+                                    <span>Works</span>
+                                    <span>Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-3-hero">
+                                <h2>Digital Designer & Developer</h2>
+                                <p>Crafting memorable brand identities and interactive experiences.</p>
+                                <span class="tmpl-btn tmpl-3-btn">View Portfolio</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box tmpl-3-box-alpha"><h4>Project Alpha</h4><p>Branding Design</p></div>
+                                <div class="tmpl-box tmpl-3-box-beta"><h4>Project Beta</h4><p>Web Application</p></div>
+                                <div class="tmpl-box tmpl-3-box-gamma"><h4>Project Gamma</h4><p>Mobile App Design</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Creative Agency</h2>
+                    <p class="card-desc">Showcase your design, photography, or freelance work with modern style.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-3')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Creative Agency', 'Studio Folio', '#a855f7', 35, 89, 249, 'Brand & Interactive Design')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 4: E-Commerce Store -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-4">
+                            <div class="tmpl-nav">
+                                <strong>Urban Shop</strong>
+                                <div class="tmpl-nav-links">
+                                    <span>Home</span>
+                                    <span>Pricing</span>
+                                    <span>Products</span>
+                                    <span>Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-4-hero">
+                                <h2>Summer Apparel Collection</h2>
+                                <p>Up to 40% discount on modern urban street styles.</p>
+                                <span class="tmpl-btn tmpl-4-btn">Shop Deals</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box"><h4>Minimal Jacket</h4><p>$89.00</p></div>
+                                <div class="tmpl-box"><h4>Runner Sneakers</h4><p>$120.00</p></div>
+                                <div class="tmpl-box"><h4>Urban Cap</h4><p>$25.00</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Shop Frontend</h2>
+                    <p class="card-desc">Responsive product grids and cart UI layout for digital storefronts.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-4')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Shop Frontend', 'Urban Shop', '#ef4444', 15, 39, 99, 'Urban Streetwear')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 5: Tech Blog -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-5">
+                            <div class="tmpl-nav">
+                                <strong>Code Journal</strong>
+                                <div class="tmpl-nav-links">
+                                    <span>Home</span>
+                                    <span>Pricing</span>
+                                    <span>Articles</span>
+                                    <span>Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-5-hero">
+                                <h2>Insights on Tech Architecture</h2>
+                                <p>Deep dives into engineering practices, AI systems, and cloud scaling.</p>
+                                <span class="tmpl-btn tmpl-5-btn">Read Articles</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box"><h4>Understanding WebAssembly</h4><p>10 min read</p></div>
+                                <div class="tmpl-box"><h4>Building Modular CSS</h4><p>6 min read</p></div>
+                                <div class="tmpl-box"><h4>Scaling Databases</h4><p>12 min read</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Tech & Blog Theme</h2>
+                    <p class="card-desc">Minimalist layout centered around readable typography for content creators.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-5')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Tech Blog', 'Code Journal', '#16a34a', 5, 12, 29, 'Engineering Publications')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 6: Restaurant & Cafe -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-6">
+                            <div class="tmpl-nav tmpl-6-nav">
+                                <strong>Gourmet Bistro</strong>
+                                <div class="tmpl-nav-links">
+                                    <span class="tmpl-6-nav-link">Home</span>
+                                    <span class="tmpl-6-nav-link">Pricing</span>
+                                    <span class="tmpl-6-nav-link">Menu</span>
+                                    <span class="tmpl-6-nav-link">Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-6-hero">
+                                <h2>Exquisite Culinary Delights</h2>
+                                <p>Fresh organic ingredients curated by world-class chefs.</p>
+                                <span class="tmpl-btn tmpl-6-btn">Reserve Table</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box"><h4>Truffle Pasta</h4><p>Fresh artisanal pasta with black truffle.</p></div>
+                                <div class="tmpl-box"><h4>Woodfired Pizza</h4><p>Classic Neapolitan pizza crust.</p></div>
+                                <div class="tmpl-box"><h4>Craft Desserts</h4><p>Handmade cocoa desserts.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Bistro & Cafe</h2>
+                    <p class="card-desc">Elegant theme with integrated menu layout and table reservation flow.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-6')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Bistro Cafe', 'Gourmet Bistro', '#c2410c', 25, 65, 150, 'Artisanal Dining')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 7: Fitness & Gym -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-7">
+                            <div class="tmpl-nav tmpl-7-nav">
+                                <strong>PULSE GYM</strong>
+                                <div class="tmpl-nav-links">
+                                    <span class="tmpl-7-nav-link">Home</span>
+                                    <span class="tmpl-7-nav-link">Pricing</span>
+                                    <span class="tmpl-7-nav-link">Classes</span>
+                                    <span class="tmpl-7-nav-link">Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-7-hero">
+                                <h2>PUSH YOUR LIMITS</h2>
+                                <p>High intensity interval training and state-of-the-art gym equipment.</p>
+                                <span class="tmpl-btn tmpl-7-btn">Join Today</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box tmpl-7-box"><h4>Crossfit</h4><p>Daily High Power Workouts</p></div>
+                                <div class="tmpl-box tmpl-7-box"><h4>Boxing</h4><p>Pro Conditioning Training</p></div>
+                                <div class="tmpl-box tmpl-7-box"><h4>Yoga</h4><p>Flexibility and Strength</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Pulse Gym</h2>
+                    <p class="card-desc">Bold imagery and schedule tables built for trainers and fitness clubs.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-7')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Pulse Gym', 'PULSE GYM', '#00ff66', 30, 60, 110, 'High Intensity Conditioning')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 8: Real Estate -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-8">
+                            <div class="tmpl-nav">
+                                <strong>Haven Estates</strong>
+                                <div class="tmpl-nav-links">
+                                    <span>Home</span>
+                                    <span>Pricing</span>
+                                    <span>Listings</span>
+                                    <span>Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-8-hero">
+                                <h2>Find Your Dream Home</h2>
+                                <p>Browse luxury apartments and modern residential villas.</p>
+                                <span class="tmpl-btn tmpl-8-btn">Search Property</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box"><h4>Modern Villa</h4><p>4 Bed &bull; 3 Bath &bull; Pool</p></div>
+                                <div class="tmpl-box"><h4>Urban Penthouse</h4><p>2 Bed &bull; City View</p></div>
+                                <div class="tmpl-box"><h4>Suburban Family</h4><p>3 Bed &bull; Large Garden</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Haven Estates</h2>
+                    <p class="card-desc">Property search listings layout with filter systems and contact prompts.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-8')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Haven Estates', 'Haven Estates', '#0284c7', 49, 149, 399, 'Luxury Property Showcase')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 9: Healthcare & Clinic -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-9">
+                            <div class="tmpl-nav">
+                                <strong>Care Clinic</strong>
+                                <div class="tmpl-nav-links">
+                                    <span>Home</span>
+                                    <span>Pricing</span>
+                                    <span>Services</span>
+                                    <span>Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-9-hero">
+                                <h2>Your Health Is Our Priority</h2>
+                                <p>Compassionate medical care with advanced clinical technology.</p>
+                                <span class="tmpl-btn tmpl-9-btn">Book Appointment</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box"><h4>General Health</h4><p>Routine checkups & wellness.</p></div>
+                                <div class="tmpl-box"><h4>Pediatrics</h4><p>Specialized child care.</p></div>
+                                <div class="tmpl-box"><h4>Dental Care</h4><p>Complete oral healthcare.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Care Clinic</h2>
+                    <p class="card-desc">Clean, trustworthy design for doctors, healthcare, and appointment booking.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-9')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Care Clinic', 'Care Clinic', '#0891b2', 40, 95, 220, 'Clinical Care Portal')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 10: Event & Summit -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-10">
+                            <div class="tmpl-nav tmpl-10-nav">
+                                <strong>Summit 2026</strong>
+                                <div class="tmpl-nav-links">
+                                    <span class="tmpl-10-nav-link">Home</span>
+                                    <span class="tmpl-10-nav-link">Pricing</span>
+                                    <span class="tmpl-10-nav-link">Speakers</span>
+                                    <span class="tmpl-10-nav-link">Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-10-hero">
+                                <h2>Global Tech Leaders Summit</h2>
+                                <p>Join top visionaries shaping the future of digital technology.</p>
+                                <span class="tmpl-btn tmpl-10-btn">Register Now</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box tmpl-10-box"><h4>Keynote Talk</h4><p>Building Next-Gen AI</p></div>
+                                <div class="tmpl-box tmpl-10-box"><h4>Panel Session</h4><p>Cloud Security Standards</p></div>
+                                <div class="tmpl-box tmpl-10-box"><h4>Workshops</h4><p>Hands-on System Design</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Summit 2026</h2>
+                    <p class="card-desc">Countdown timers, speaker cards, and ticket breakdown layout.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-10')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Summit 2026', 'Summit 2026', '#6366f1', 99, 299, 599, 'Conference Registration')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 11: Charity & Nonprofit -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-11">
+                            <div class="tmpl-nav">
+                                <strong>Hope Foundation</strong>
+                                <div class="tmpl-nav-links">
+                                    <span>Home</span>
+                                    <span>Pricing</span>
+                                    <span>Causes</span>
+                                    <span>Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-11-hero">
+                                <h2>Building Better Communities</h2>
+                                <p>Providing education, clean water, and support where it matters most.</p>
+                                <span class="tmpl-btn tmpl-11-btn">Volunteer Today</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box"><h4>Clean Water</h4><p>Community well projects.</p></div>
+                                <div class="tmpl-box"><h4>Education</h4><p>School kit distributions.</p></div>
+                                <div class="tmpl-box"><h4>Healthcare</h4><p>Mobile medical vans.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Hope Foundation</h2>
+                    <p class="card-desc">Storytelling-focused page built to drive community engagement and action.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-11')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Hope Foundation', 'Hope Foundation', '#d97706', 10, 25, 50, 'Nonprofit Outreach')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 12: Admin Console -->
+            <div class="card">
+                <div class="card-preview-wrapper">
+                    <div class="card-preview-frame">
+                        <div class="watermarked-template" id="tmpl-12">
+                            <div class="tmpl-nav tmpl-12-nav">
+                                <strong>Console Dark UI</strong>
+                                <div class="tmpl-nav-links">
+                                    <span class="tmpl-12-nav-link">Home</span>
+                                    <span class="tmpl-12-nav-link">Pricing</span>
+                                    <span class="tmpl-12-nav-link">Metrics</span>
+                                    <span class="tmpl-12-nav-link">Contact</span>
+                                </div>
+                            </div>
+                            <div class="tmpl-hero tmpl-12-hero">
+                                <h2>System Performance Hub</h2>
+                                <p>Real-time analytics and server cluster monitoring.</p>
+                                <span class="tmpl-btn tmpl-12-btn">View Status</span>
+                            </div>
+                            <div class="tmpl-grid">
+                                <div class="tmpl-box tmpl-12-box"><h4>CPU Load</h4><p>24% Active Utilization</p></div>
+                                <div class="tmpl-box tmpl-12-box"><h4>Memory</h4><p>8.2 GB / 16 GB Used</p></div>
+                                <div class="tmpl-box tmpl-12-box"><h4>Network</h4><p>1.2 Gbps Inbound</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Admin Console</h2>
+                    <p class="card-desc">Data visualization UI cards and admin panel framework in dark theme.</p>
+                    <div class="card-actions">
+                        <button onclick="openPreview('tmpl-12')" class="btn btn-preview">Preview</button>
+                        <button onclick="downloadFullTemplate('Admin Console', 'Console Dark UI', '#3b82f6', 20, 50, 120, 'Data Telemetry Hub')" class="btn btn-download">Download</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Pricing Section -->
+    <section class="section-padding pricing-section" id="pricing">
+        <h2 class="section-title">Free Tier Access</h2>
+        <p class="section-subtitle">All open-source templates are 100% free to download, edit, and use for commercial or client projects.</p>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="section-padding amenities-section" id="amenities">
+        <h2 class="section-title">Platform Features</h2>
+        <p class="section-subtitle amenities-subtitle">Everything you need for rapid deployment and easy customization.</p>
+        
+        <div class="amenities-grid">
+            <div class="amenity-card">
+                <h3>Fully Responsive Layouts</h3>
+                <p>Designed to render cleanly across modern desktop displays, tablets, and mobile smartphones.</p>
+            </div>
+            <div class="amenity-card">
+                <h3>Zero External Dependencies</h3>
+                <p>Built with pure HTML5 and modern CSS variables for rapid load speeds and easy overrides.</p>
+            </div>
+            <div class="amenity-card">
+                <h3>Clean Code Structure</h3>
+                <p>Readable, semantic layout code designed for easy extension or framework integration.</p>
+            </div>
+            <div class="amenity-card">
+                <h3>Commercial License Ready</h3>
+                <p>Free for personal portfolio sites, agency templates, or direct client deliverables.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Section -->
+    <section class="donation-section" id="donate">
+        <div class="donation-container">
+            <h2>Support Our Free Project</h2>
+            <p>We build free open-source templates without compulsory fees. If you find these code files helpful, consider supporting our development directly via bank deposit!</p>
+
+            <div class="donation-card">
+                <h3 class="donation-card-title">Direct Support & Wire Transfer</h3>
+                <p class="donation-card-subtitle">Jumbo Bank Direct Deposit & UPI Details</p>
+
+                <div class="bank-details">
+                    <div class="detail-item">
+                        <label>Account Holder</label>
+                        <span>Dummy Human</span>
+                    </div>
+                    <div class="detail-item">
+                        <label>Bank & Branch</label>
+                        <span>MoneyFull Bank</span>
+                    </div>
+                    <div class="detail-item">
+                        <label>Account Number</label>
+                        <span id="accNum">05131128661901</span>
+                        <button class="copy-btn" onclick="copyText('accNum')">Copy Account Number</button>
+                    </div>
+                    <div class="detail-item">
+                        <label>IFSC Code</label>
+                        <span id="ifscCode">AXBN0030501</span>
+                        <button class="copy-btn" onclick="copyText('ifscCode')">Copy IFSC Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Preview -->
+    <div class="modal" id="previewModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Live Watermarked Template Preview (Non-Interactive)</h3>
+                <button class="close-btn" onclick="closePreview()">Close</button>
+            </div>
+            <div class="modal-body" id="modalTarget"></div>
+        </div>
+    </div>
+
+    <!-- Modal for Documentation -->
+    <div class="modal" id="docsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Developer Documentation</h3>
+                <button class="close-btn" onclick="closeDocsModal()">Close</button>
+            </div>
+            <div class="modal-body modal-docs-body">
+                <p class="docs-lead">Everything you need to integrate, customize, and extend UltraThemeHub templates.</p>
+
+                <div class="docs-block">
+                    <h3>Architecture Overview</h3>
+                    <p>UltraThemeHub operates as a zero-dependency static distribution engine. Template previews are micro-rendered into 16:9 responsive thumbnails using CSS scale transformations. Download operations dynamically generate standalone, un-watermarked HTML files via JavaScript Blob URLs.</p>
+                </div>
+
+                <div class="docs-block">
+                    <h3>API Function Reference</h3>
+                    <ul class="docs-list">
+                        <li><code>openPreview(templateId)</code> — Injects the watermarked template into the modal preview overlay with interactive triggers disabled.</li>
+                        <li><code>closePreview()</code> — Dismisses the modal overlay and purges cached DOM preview elements.</li>
+                        <li><code>openDocsModal()</code> — Opens this documentation pop-up window.</li>
+                        <li><code>copyText(elementId)</code> — Copies direct account transfer details to the user clipboard using Navigator Clipboard APIs.</li>
+                        <li><code>downloadFullTemplate(...)</code> — Generates a fully responsive HTML template file with custom color palettes, numerical pricing tiers, and contact forms.</li>
+                    </ul>
+                </div>
+
+                <div class="docs-block">
+                    <h3>Custom Template Integration</h3>
+                    <p>To register a new template card inside the grid, use the standard <code>.card</code> structural boilerplate:</p>
+                    <pre><code>&lt;div class="card"&gt;
+  &lt;div class="card-preview-wrapper"&gt;
+    &lt;div class="card-preview-frame"&gt;
+      &lt;div class="watermarked-template" id="tmpl-custom"&gt;
+        &lt;!-- Mini UI Component Layout --&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h2 class="card-title"&gt;Template Title&lt;/h2&gt;
+    &lt;button onclick="downloadFullTemplate('Title', 'Brand', '#hex', 10, 20, 30, 'Category')"&gt;Download&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 UltraThemeHub. Pure HTML & CSS Templates.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
